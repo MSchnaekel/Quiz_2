@@ -1,8 +1,8 @@
-/***********************************************************************
-	The implementation file for course.h, which describes a college
-	course.
-		John Dolan		School of EECS		Summer2013
-**************************************************************************/
+/**
+ *	The implementation file for course.h, which describes a college
+ *	course.
+ *		John Dolan		School of EECS		Summer2013
+ */
 #include "course.h"
 #include<cstdlib>
 #include<iostream>
@@ -54,6 +54,11 @@ void course::output(std::ostream& outs)const{
 
 
 double course::get_number_grade()const{
+
+	///@brief takes in a letter grade and returns the gpa equivalent
+	///@ param none
+	///@return double
+
     if(grade == "A") return 4.0;
     if(grade == "A-") return 3.667;
     if(grade == "B+") return 3.333;

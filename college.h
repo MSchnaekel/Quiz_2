@@ -1,9 +1,9 @@
-//********************
-//Matthew Aberegg
-//Project 3
-//CS 2401
-//10/8/2015
-//********************
+/**
+  *Matthew Aberegg
+  *Project 3
+  *CS 2401
+  *10/8/2015
+  */
 
 #include <iostream>
 #include <fstream>

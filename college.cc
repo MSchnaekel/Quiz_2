@@ -70,6 +70,13 @@ College& College::operator =(const College& other){
 }
 
 void College::add(course& c){
+
+
+	///@brief adds a new course to the users course lsit
+	///@param course& c
+	///@return void
+
+
 	node * previous;
 	node * cursor;
 	node * newnode;
@@ -108,6 +115,12 @@ void College::add(course& c){
 }
 
 void College::remove(std::string coursename){
+
+	///@brief removes a course from the current course list
+	///@param string coursename	
+	///@return void
+
+
 	node * previous;	
 	node * cursor;
 	if(coursename == head->data().get_course_number()){
@@ -157,6 +170,11 @@ return hours;
 }
 
 double College::gpa(){
+
+	///@brief calculates the users gpa
+	///@param none
+	///@return double
+
 	node * ptr;
 	ptr = head;
 	double sum = 0;
